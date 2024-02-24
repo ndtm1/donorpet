@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <script>
+        let i = 2
+        let interv = setInterval(() => {
+            document.getElementById('redirect').innerText = 'Redirect in '+ i;
+            i--
+        }, 1000)
+        setTimeout(() => {
+            clearInterval(interv)
+            let a = document.createElement('a')
+            a.setAttribute('href', 'https://devrel-hack-y53m.onrender.com')
+            a.click()
+        }, 3000)
+    </script>
+    <body>
+        <h2>Your account has been verified</h2>
+        <h3 id="redirect">Redirect in 3</h3>
+    </body>
+</html>
