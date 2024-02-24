@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'super';
+    src: url('SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf') format('ttf')
+    /* Add additional formats as needed */
+}
+
+body {
+    font-family: 'super'; /* Apply the font to the entire body */
+}
+
+/* Or you can apply the font to specific elements */
+.custom-font-element {
+    font-family: 'super';
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Super Webcomic Bros (Rus by yakustick)";   /*Can be any text*/
+    src: local("Super Webcomic Bros (Rus by yakustick)"),
+    url("fonts/SuperWebcomicBros_Rusbyyakustick_-Regular_0.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Krivulya-Regular";
+    src: local("Krivulya-Regular"),
+    url("./fonts/Krivulya Regular.ttf") format("truetype");
+    font-weight: normal;
+}
