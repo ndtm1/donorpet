@@ -1,0 +1,21 @@
+POST https://localhost:8080/api/v1/pet/addPet
+Content-Type: application/json
+
+{
+  "name": "test",
+  "breed": "test",
+  "sex": "M",
+  "age": 12,
+  "isTransfusion": true,
+  "isSterilized": true,
+  "isPregnant": false,
+  "isSpleenRemoved": false,
+  "isSurgicalTherapy": false,
+  "isMedicines": false,
+  "isAutoimmune": false,
+  "isInfected": false,
+  "isAggressive": false,
+  "preparation": "idk",
+  "type": "cat",
+  "donorId": "DONOR24324JKFG"
+}
